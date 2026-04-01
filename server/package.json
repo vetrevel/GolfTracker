@@ -1,19 +1,20 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "@supabase/supabase-js": "^2.101.1",
-    "cors": "^2.8.6",
-    "dotenv": "^17.3.1",
-    "express": "^5.2.1"
-  }
+"name": "client",
+"version": "0.1.0",
+"private": true,
+"dependencies": {
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+"react-scripts": "5.0.1",
+"web-vitals": "^2.1.4"
+},
+"scripts": {
+"start": "react-scripts start",
+"build": "node node_modules/react-scripts/bin/react-scripts.js build",
+"test": "react-scripts test",
+"eject": "react-scripts eject"
+},
+"engines": {
+"node": "18.x"
+}
 }
